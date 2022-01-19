@@ -1,0 +1,234 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+nav{
+    height: 100px;
+    display: flex;
+    position: relative;
+}
+.left{
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.left li{
+    list-style-type: none;
+    display: inline;
+    padding-left: 18px;
+    padding-right: 20px;
+}
+.logo {
+    display: block;
+    margin-right: 0;
+    padding: 0;
+}
+img{
+    height: 51px;
+    width: 51px;
+    
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    opacity: 90%;
+    width: 100%;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+    letter-spacing: 1.5px;
+}
+.left li a:hover{
+    color: #00754a;
+}
+nav .right{
+    display: flex;
+    position: absolute;
+    right: 5%;
+    top: 40%;
+    line-height: 16.8px;
+    
+}
+.right li{
+    list-style-type: none;
+    display: inline;
+    padding-left: 24px;
+}
+.right li a{
+    width: 42px;
+
+    text-transform: none;
+    border: 2px black solid;
+    border-radius: 30px;
+    text-align: center;
+    padding:6px 8px;
+    
+}
+.right li a:nth-child(1):hover{
+    background-color: #eee;
+    color: black;
+    opacity: 80%;
+}
+.right li a:nth-child(2):hover{
+    background-color: #eee;
+    color: black;
+    opacity: 0%;
+}
+.right li i:hover{
+    color: #00a862;
+}
+.container-1 .head{
+    width: 100%;
+    background-color: #1e3932;
+    height: 50px;
+    padding-left: 50px;
+    padding-top: 15px;
+}
+.container-1 .head p{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 0.5px;
+
+}
+.container-1 {
+    background-color: #d4e9e2;
+    width: 100%;
+    height: 810px;
+}
+.container-1 .main{
+    display: flex;
+    
+    position: relative;
+}
+.container-1 .main .text{
+    margin: 249px 0 auto 40px;
+    /* width: 30%; */
+
+}
+.container-1 .main .text h1{
+    font-size: 36px;
+    line-height: 44px;
+    text-align: left;
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: -0.16px;
+}
+.container-1 .main .text p{
+    padding-top: 10px;
+    font-size: 19px;
+}
+.container-1 .main .text .btn{
+    padding-top: 30px;
+    padding-bottom: 5px;
+    padding-left: 0;
+    
+}
+.container-1 .main .text .btn a{
+    background-color: #00754a;
+    border-radius: 50px;
+    color: white;
+    text-transform: none;
+}
+.container-1 .main .text p a{
+    text-transform: none;
+    text-decoration: underline;
+    font-size: 19px;
+    font-weight: normal;
+}
+.container-1 .main .star{
+    width: 1400px;
+    height: 760px;
+}
+
+.container-1 .main .star .main-img{
+    /* position: absolute; */
+    width: 100%;
+    height: 100%;
+    background-image: url('img/star.webp');
+    background-size: 100% 100%;
+}
+
+.intro-text{
+    position: relative;
+}
+
+.intro-text .img{
+    position: absolute;
+    bottom: 90%;
+    left: 45%;
+}
+.started .get-start .intro-text p a{
+    text-transform: none;
+    text-decoration: underline;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #00a862;
+    margin: 0;
+    padding: 0;
+}
+.started .get-start .intro-text p a:hover{
+    text-decoration: none;
+}
+.started .get-start .intro-text p{
+    width: 396px;
+}
+.price {
+    height: 469px;
+}
+.price .head{
+    background: rgba(212, 233, 226,33%);
+    box-shadow: 5px 0px 5px 0px #d4e9e2;
+}
+.price .product{
+    
+    background: #d4e9e2;
+}
+.extra .head p{
+    /* width: 650px; */
+    word-break: break-word;
+    margin-left: 300px;
+}
+.extra .row .col img{
+    width: 112px;
+    height: auto;
+}
+.extra .row .col p a{
+    text-transform: none;
+    text-decoration: underline;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #006241;
+    margin: 0;
+    padding: 0;
+}
+.cash {
+    background-color: #f2f0eb;
+}
+.cash .head p{
+    width: 650px;
+    /* word-break: break-word; */
+    margin-left: 300px;
+}
+.col .scan {
+    width: 128px;
+}
+.scan-img {
+    width: 128px;
+    height: 165px;
+    margin-right: 0;
+    padding: 0%;
+}
